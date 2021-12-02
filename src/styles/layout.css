@@ -18,14 +18,14 @@
     margin: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 99vh;
-    border: solid black 5px;
+    /* border: solid black 5px; */
 }
 
 .main__title{
-    /* padding: 5vh; */
+    color: var(--color-red);
 }
 
 .main__center--title{
@@ -52,8 +52,12 @@
 }
 
 .dropzone {
-    width: 300px;
-    height: 350px;
-    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 57vw;
+    height: 40vh;
+    margin-left: 40px ;
+    border: 1px var(--color-grey) dashed;
 
 }

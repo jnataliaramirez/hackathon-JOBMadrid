@@ -2,20 +2,24 @@
 import React from 'react'
 //styles
 import '../../styles/layout.css'
-import { Dropzone } from '../Dropzone'
+//components
+import { CalculateResult } from '../CalculateResult'
+import { MyDropzone } from '../Dropzone'
+import { ViewData } from '../ViewData'
+
 export const Layout = () => {
     return (
         <div className="main">
             <h1 className="main__title">DROPZONE VIEW</h1>
             <div className="main__center">
-                <Dropzone />
+                <MyDropzone />
                 <div></div>
                 <div className="center__rigth">
-                    <div className="center__rigth--item">Calcular resultados</div>
+                    <div className="center__rigth--item"><CalculateResult /></div>
                     <div className="center__rigth--item">Resultados MSE</div>
                 </div>
             </div>
-            <div class="main__foot">Visualizacion de datos</div>
+            <div className="main__foot"><ViewData /></div>
         </div>
     )
 }
