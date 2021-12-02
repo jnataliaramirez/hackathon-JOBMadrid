@@ -1,7 +1,17 @@
+
+:root {
+    --color-white: #DDDDDD;
+    --color-black: #222831;
+    --color-grey: #30475E;
+    --color-red: #F05454;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-white);
 }
 
 .main{
@@ -10,12 +20,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 99vh;
     border: solid black 5px;
 }
 
 .main__title{
-    padding: 5vh;
+    /* padding: 5vh; */
 }
 
 .main__center--title{
