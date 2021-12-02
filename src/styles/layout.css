@@ -35,12 +35,15 @@
 
 .main__center{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     justify-content: space-around;
 }
 
 .center__rigth--item{
-    border: solid var(--color-black) 2px;
+    border: solid #141E61 2px;
+    color: #7B113A;
     padding: 0.9em;
     margin: 5px;
     border-radius: 10px;
@@ -78,10 +81,28 @@
     text-align: center;
 }
 
-.btncalculate{
-    border: none;
+.main__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    border: 2px solid var(--color-red);
+    padding: 1em;
     font-size: 1.1rem;
     color: var(--color-grey);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+:hover.btn {
+    border: 2px solid var(--color-black);
+    color: var(--color-red);
+    background-color: #141E61;
+    
 }
 
 
