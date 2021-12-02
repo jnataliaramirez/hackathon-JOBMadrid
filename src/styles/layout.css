@@ -53,11 +53,19 @@
 
 .dropzone {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 57vw;
     height: 40vh;
     margin-left: 40px ;
     border: 1px var(--color-grey) dashed;
-
 }
+
+.dropzone__image {
+    padding: 0 0 1.5rem;
+    color: var(--color-grey);
+    font-size: 3rem;
+}
+
+
