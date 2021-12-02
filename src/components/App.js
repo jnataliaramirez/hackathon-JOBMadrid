@@ -1,13 +1,15 @@
 // styles
 import '../styles/reset.css';
 import '../styles/App.css';
+import { AppRouter } from '../router/AppRouter';
+import { Layout } from './screen/Layout';
 
- function App() {
-   return (
-     <div>
-       <h1>Hola mundo</h1>
-     </div>
-   );
- }
+function App() {
+  return (
+    <div>
+      <Layout />
+    </div>
+  );
+}
 
- export default App;
+export default App;
