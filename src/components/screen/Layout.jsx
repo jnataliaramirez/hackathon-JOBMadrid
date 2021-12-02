@@ -21,7 +21,7 @@ export const Layout = () => {
           <p className='center__rigth--item'>Resultados MSE</p>
         </div>
       </div>
-      <div className='main__foot'>
+      <div>
         <ViewData />
       </div>
     </div>

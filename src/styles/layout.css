@@ -51,11 +51,6 @@
 
 }
 
-.main__foot{
-    border: solid black 5px;
-    padding: 1vh;
-    margin: 5px;
-}
 
 .dropzone {
     display: flex;
@@ -88,7 +83,7 @@
 
 .btn{
     border: 2px solid var(--color-red);
-    padding: 1em;
+    padding: 1rem;
     font-size: 1.1rem;
     color: var(--color-grey);
     margin-bottom: 1rem;
@@ -96,6 +91,7 @@
     text-align: center;
     justify-items: center;
     cursor: pointer;
+    background-color: var(--color-red);
 }
 
 :hover.btn {
@@ -104,6 +100,19 @@
     background-color: #141E61;
     
 }
+
+.viewData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-black);
+    width: 80vw;
+    height: 14rem;
+    margin: 1.5rem;
+    border-radius: 15px;
+}
+
+
 
 
 
