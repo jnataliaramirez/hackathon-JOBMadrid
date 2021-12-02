@@ -1,7 +1,7 @@
 
 :root {
     --color-white: #DDDDDD;
-    --color-black: #222831;
+    --color-black: #374045;
     --color-grey: #30475E;
     --color-red: #F05454;
 }
@@ -40,9 +40,10 @@
 }
 
 .center__rigth--item{
-    border: solid black 5px;
-    padding: 1vh;
+    border: solid var(--color-black) 2px;
+    padding: 0.9em;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .main__foot{
@@ -60,6 +61,7 @@
     height: 40vh;
     margin-left: 40px ;
     border: 1px var(--color-grey) dashed;
+    border-radius: 15px;
 }
 
 .dropzone__image {
@@ -72,6 +74,12 @@
     padding: 0.25rem;
     color: var(--color-grey);
     text-align: center;
+}
+
+.btncalculate{
+    border: none;
+    font-size: 1.1rem;
+    color: var(--color-grey);
 }
 
 

@@ -12,7 +12,7 @@ export const CalculateResult = () => {
             className="btncalculate"
             onClick={handleButtonClick}
         >
-            soy calcular
+            Cálcular
         </button>
     )
 }
