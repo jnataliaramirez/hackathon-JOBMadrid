@@ -9,10 +9,10 @@ export const CalculateResult = () => {
     }
     return (
         <button
-            className="btncalculate"
+            className="btn"
             onClick={handleButtonClick}
         >
-            soy calcular
+            Cálcular
         </button>
     )
 }
