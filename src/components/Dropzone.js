@@ -1,9 +1,11 @@
 import React from 'react'
+import '../styles/layout.css'
+
 
 export const Dropzone = () => {
     return (
-        <div>
-            funciono
+        <div className="dropzone">
+          hola
         </div>
     )
 }
