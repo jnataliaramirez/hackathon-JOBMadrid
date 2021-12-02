@@ -19,7 +19,7 @@ export const Layout = () => {
                     <div className="center__rigth--item">Resultados MSE</div>
                 </div>
             </div>
-            <div classname="main__foot"><ViewData /></div>
+            <div className="main__foot"><ViewData /></div>
         </div>
     )
 }
