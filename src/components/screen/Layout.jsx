@@ -4,7 +4,7 @@ import React from 'react'
 import '../../styles/layout.css'
 //components
 import { CalculateResult } from '../CalculateResult'
-import { Dropzone } from '../Dropzone'
+import { MyDropzone } from '../Dropzone'
 import { ViewData } from '../ViewData'
 
 export const Layout = () => {
@@ -12,7 +12,7 @@ export const Layout = () => {
         <div className="main">
             <h1 className="main__title">DROPZONE VIEW</h1>
             <div className="main__center">
-                <Dropzone />
+                <MyDropzone />
                 <div></div>
                 <div className="center__rigth">
                     <div className="center__rigth--item"><CalculateResult /></div>
