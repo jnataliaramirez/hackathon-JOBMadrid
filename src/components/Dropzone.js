@@ -24,7 +24,7 @@ export const MyDropzone = () => {
       <div className="dropzone__image">
         <i class='fas fa-cloud-download-alt'></i>
       </div>
-      <p>Click or drag image file to this area to upload</p>
+      <p className="dropzone__text">Click or drag image file to this area to upload</p>
     </div>
   );
 };

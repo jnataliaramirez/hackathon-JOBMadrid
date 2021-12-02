@@ -68,4 +68,11 @@
     font-size: 3rem;
 }
 
+.dropzone__text {
+    padding: 0.25rem;
+    color: var(--color-grey);
+    text-align: center;
+}
+
+
 
